@@ -53,7 +53,7 @@ input:hover, :focus{
     display: inline-flex;
     background-color: rgb(121, 255, 177);
     padding: 10px 15px 10px 15px;
-    margin-top: 30px;
+    margin: 30px 10px 0 0;
 }
 
 #form__sbmt-btn:hover{
@@ -69,6 +69,7 @@ a{
 a:hover{
     color: rgb(0, 0, 0);
     transition: 300ms ease-in-out;
+    cursor: pointer;
 }
 
 a:focus{

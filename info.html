@@ -4,30 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/react-router-dom/umd/react-router-dom.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/connectycube@3.7.8/dist/connectycube.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/immutable/3.8.2/immutable.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>Account Info</title>
-    <script src="scripts/info.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" type="text/babel"></script>
+    <title>Info Page</title>
 </head>
 <body>
     <main>
         <section>
-            <form>
-                <label for="id">ID</label>
-                <input type="text" name="id" id="" disabled>
-                <label for="login">Login</label>
-                <input type="text" name="login" id="" disabled>
-                <label for="name">Full name</label>
-                <input type="text" name="name" id="" disabled>
-                <label for="create">Create date</label>
-                <input type="text" name="create" id="" disabled>
-                <label for="request">Last request date</label>
-                <input type="text" name="request" id="" disabled>
-                <label for="update">Updated date</label>
-                <input type="text" name="update" id="" disabled>
-                <a href="#" onclick="logout()">Log Out</a>
-            </form>
         </section>
     </main>
 </body>
